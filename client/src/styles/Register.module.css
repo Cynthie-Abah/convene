@@ -1,0 +1,63 @@
+/* Register.module.css */
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 161, 84, .2); 
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem;
+    background-color: #ffffff;
+}
+
+.logo {
+    color: rgb(77, 161, 84); 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.formGroup {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    outline: 1.5px solid rgb(77, 161, 84); 
+    border: 1.5px solid rgb(77, 161, 84); 
+    border-radius: 0.35rem;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+}
+
+.link {
+    color: #cbd5e0;
+}
+
+a:hover {
+    color: rgb(77, 161, 84); 
+    /* font-weight: bold; */
+}
+
+.button {
+    margin-top: 0.75rem;
+    background-color: rgb(77, 161, 84); 
+    color: #ffffff;
+    border-radius: .37rem;
+    padding: 0.75rem 0.5rem;
+    width: 50%;
+    max-width: 8rem;
+    border: none;
+    font-size: 1rem;
+}
